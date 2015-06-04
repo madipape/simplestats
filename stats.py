@@ -11,6 +11,7 @@ def mean(vals):
     return total/length
 
 def median(vals):
+    #here is my change to median
     vals.sort()
     z = len(vals)
     index = z / 2
